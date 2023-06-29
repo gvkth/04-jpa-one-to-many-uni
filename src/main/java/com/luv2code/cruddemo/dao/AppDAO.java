@@ -16,4 +16,5 @@ public interface AppDAO {
     public List<Course> findCoursesByInstructorId(int theId);
     void update(Instructor tempInstructor);
     void deleteCourseById(int theId);
+    void save(Course theCourse);
 }
